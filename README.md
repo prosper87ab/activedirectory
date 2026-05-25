@@ -71,9 +71,6 @@ Describe your setup here in simple terms:
 - Scripted bulk user creation
 - Automated account management tasks
 
-```powershell
-# Example snippet
-New-ADUser -Name "John Doe" -GivenName "John" -Surname "Doe"
 
 
 
