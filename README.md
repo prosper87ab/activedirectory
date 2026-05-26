@@ -1,9 +1,9 @@
 # # 🔐 Identity Governance & The Lifecycle (Joiner, Mover, Leaver)
 
 ## 📌 Project Overview
-This project simulates a real-world enterprise IT environment using Active Directory. The goal was to demonstrate how user identities are created, managed, secured, and governed within a Windows domain environment.
+Managing the digital identity lifecycle is a critical security and compliance requirement for modern enterprises. This project simulates an enterprise-grade Identity Governance and Administration (IGA) solution by automating the core phases of the identity lifecycle: Joiner (onboarding), Mover (cross-departmental transfers/promotion), and Leaver (offboarding).
 
-The lab replicates common IT Help Desk and IAM responsibilities such as user provisioning, group-based access control, and policy enforcement using Group Policy Objects (GPOs).
+By integrating an on-premises ecosystem with cloud-native identity providers, this project demonstrates how to enforce the principle of least privilege, eliminate manual provisioning bottlenecks, mitigate "privilege creep," and ensure secure, immediate de-provisioning.
 
 ---
 
@@ -17,12 +17,28 @@ The lab replicates common IT Help Desk and IAM responsibilities such as user pro
 ---
 
 ## 🛠️ Technologies & Tools Used
-- Windows Server 2019 / 2022  
-- Active Directory Domain Services (AD DS)  
-- Group Policy Management (GPO)  
-- Microsoft Azure (Virtual Machines) *(or VirtualBox/VMware)*  
-- PowerShell (for automation)  
-- Remote Desktop Protocol (RDP)
+- Directory Services: Active Directory Domain Services (AD DS)
+- Cloud Identity Providers (IdPs): Microsoft Entra ID, Okta  
+- Automation & Scripting: PowerShell 
+- Identity Sync Tools: Microsoft Entra Cloud Sync, Okta Active Directory Agent
+- Virtualization: VMware Workstation Pro 
+- Operating Systems: Windows Server 2025 (Domain Controller), Windows 11 Pro (Admin Workstation)
+- Custom Domain Namespace: iamcloud.online
+
+
+Directory Services: Active Directory Domain Services (AD DS)
+
+Cloud Identity Providers (IdPs): Microsoft Entra ID, Okta
+
+Automation & Scripting: PowerShell
+
+Identity Sync Tools: Microsoft Entra Cloud Sync, Okta Active Directory Agent
+
+Virtualization: VMware Workstation Pro
+
+Operating Systems: Windows Server 2025 (Domain Controller), Windows 11 Pro (Admin Workstation)
+
+Custom Domain Namespace: iamcloud.online
 
 ---
 
