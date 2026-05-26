@@ -1,4 +1,4 @@
-# # 🔐 Active Directory Home Lab Project
+# # 🔐 Identity Governance & The Lifecycle (Joiner, Mover, Leaver)
 
 ## 📌 Project Overview
 This project simulates a real-world enterprise IT environment using Active Directory. The goal was to demonstrate how user identities are created, managed, secured, and governed within a Windows domain environment.
