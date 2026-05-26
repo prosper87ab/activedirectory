@@ -25,25 +25,18 @@ By integrating an on-premises ecosystem with cloud-native identity providers, th
 - Operating Systems: Windows Server 2025 (Domain Controller), Windows 11 Pro (Admin Workstation)
 - Custom Domain Namespace: iamcloud.online
 
-
-Directory Services: Active Directory Domain Services (AD DS)
-
-Cloud Identity Providers (IdPs): Microsoft Entra ID, Okta
-
-Automation & Scripting: PowerShell
-
-Identity Sync Tools: Microsoft Entra Cloud Sync, Okta Active Directory Agent
-
-Virtualization: VMware Workstation Pro
-
-Operating Systems: Windows Server 2025 (Domain Controller), Windows 11 Pro (Admin Workstation)
-
-Custom Domain Namespace: iamcloud.online
-
 ---
 
 ## 🏗️ Lab Architecture
-Describe your setup here in simple terms:
+iamcloud.online (Domain Root)
+└── IAMCloud_Corp (Main OU)
+    ├── Corporate_HQ
+    │   ├── HR
+    │   └── IT_Security
+    ├── Clinical_Staff
+    │   ├── Nursing
+    │   └── Physicians
+    └── Disabled_Users (Critical for the Leaver process)
 
 - 1 Domain Controller (Windows Server)
 - (Optional) 1–2 Client Machines (Windows 10/11)
