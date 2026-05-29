@@ -64,6 +64,8 @@ This shows the VMware environment where all actions will be taking place.
 - Configured account lockout policies
 - Restricted user environments (e.g., control panel access)
 
+
+
 📸 *[Insert screenshot]*
 
 ---
